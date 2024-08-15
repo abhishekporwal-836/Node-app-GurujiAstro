@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://abhishekporwal836:Saroj%405472@simple-node-voting-app.5yoi7.mongodb.net/', {
+mongoose.connect('mongodb+srv://<username>:<password>@simple-node-voting-app.5yoi7.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
