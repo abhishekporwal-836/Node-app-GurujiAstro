@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a4cbcb;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    text-align: center;
+    background: 	#6eb0b0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Box Styles */
+.box {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Header Styles */
+h3,h1 {
+    color: #0c513e;
+    margin-bottom: 20px;
+    
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff; /* Default button color */
+    border: none;
+    color: #fff;
+    padding: 12px 24px; /* Larger padding for better click area */
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button Color Variants */
+button#addButton {
+    background-color: #28a745; /* Green for Add button */
+}
+
+button#addButton:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+button#addButton:active {
+    transform: scale(0.98); /* Slightly scale down on click */
+}
+
+button#getCountButton {
+    background-color: #17a2b8; /* Blue for Get Count button */
+}
+
+button#getCountButton:hover {
+    background-color: #138496; /* Darker blue on hover */
+}
+
+button#getCountButton:active {
+    transform: scale(0.98); /* Slightly scale down on click */
+}
+
+/* Text Styles */
+p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
